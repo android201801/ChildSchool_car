@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".useradd"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/img_selected"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/car"
+         />
+
+
+    <VideoView
+        android:id="@+id/vid_selected"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_select_image"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorBrown"
+        android:text="사진 선택하기"
+        android:textColor="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/btn_select_video"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:visibility="invisible" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorDarkMain"
+        android:text="확인하기"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

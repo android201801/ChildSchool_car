@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".usercheck"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="120dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorBrown"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/selectview"
+        android:layout_width="wrap_content"
+        android:layout_height="194dp"
+        app:srcCompat="@drawable/car" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/carnum"
+            android:layout_width="35dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="차량번호  :"
+            android:textColor="@color/colorGray" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="@color/colorGray" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/enteruser"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorDarkMain"
+        android:text="확인"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
