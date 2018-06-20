@@ -36,7 +36,7 @@ import java.util.List;
 public class useradd extends AppCompatActivity {
 
     private static final String UPLOAD_URL = "http://222.122.30.53:8000/lpr";
-    String auth_key = "YWFhYWE6YmJiYmI";
+    String auth_key = "YWFhYWE6YmJiYmI=";
 
     private Uri mImageUri = null;
 
